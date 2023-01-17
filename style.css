@@ -8,14 +8,16 @@ body {
 }
 
 main {
-    display: flex;
+    display: absolute;
     align-items: center;
     justify-content: center;
     background-color: black;
-    height: 100vh;
+    top: 10vh;
+    left: 0vw;
+    height: 90vh;
     width: 100vw;
 }
 
-.navbar-brand {
+/* .navbar-brand {
     font-size: max(1.5vw, 1em);
-}
+} */
