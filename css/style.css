@@ -1,0 +1,75 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Courier New', monospace !important;
+  font-size: max(1.25vw, 1em) !important;
+}
+
+header {
+  /* padding: 156px 0 100px; */
+  padding: 123px 0 100px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.navbar-brand {
+  font-size: max(1.5vw, 1em);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a,
+div.container>div.col-lg-12>h2 {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+/* navbar */
+.bg-dark {
+  /* background-color: #343a40 !important; */
+  background-color: white !important;
+}
+
+/* banner */
+.bg-primary {
+  /* background-color: #007bff !important; */
+  background-color: #219ebc !important;
+}
+
+/* primary content */
+.bg-light {
+  /* background-color: #f8f9fa !important; */
+  background-color: #8ecae6 !important;
+}
+
+/* secondary content */
+.bg-light-alt {
+  /* background-color: #fff !important; */
+  background-color: #023047 !important;
+  color: white;
+}
+
+/**** unused below here ****/
+.bg-secondary {
+  /* background-color: #6c757d !important; */
+  background-color: #023047 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}

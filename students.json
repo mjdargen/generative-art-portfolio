@@ -1,0 +1,58 @@
+{
+  "Aryan": {
+    "Circles": "aryan_circles.html"
+  },
+  "Daniel": {
+    "Discs": "daniel_discs.html",
+    "Fish": "daniel_fish.html",
+    "Ulam Spiral": "daniel_ulam_spiral.html"
+  },
+  "Ganning": {
+    "Airplane": "ganning_airplane.html",
+    "Text Webcam": "ganning_text_webcam.html",
+    "Visualizer": "ganning_visualizer.html"
+  },
+  "Jane": {
+    "Image Blocks": "jane_image_blocks.html",
+    "Landscape Generator": "jane_landscape_generator.html",
+    "Perspective": "jane_perspective.html",
+    "Social": "jane_social.html"
+  },
+  "Jolie": {
+    "Lines": "jolie_lines.html",
+    "Moody Owls": "jolie_moody_owls.html",
+    "Pollution": "jolie_pollution.html"
+  },
+  "Max": {
+    "A Zen Garden": "max_a_zen_garden.html",
+    "Hyperspeed": "max_hyperspeed.html",
+    "Visualizer": "max_visualizer.html"
+  },
+  "Nicholas": {
+    "Dystopian Monotony": "nicholas_dystopian_monotony.html",
+    "Human Drawing": "nicholas_human_drawing.html",
+    "Tessellation": "nicholas_tessellation.html"
+  },
+  "Shreeya": {
+    "Happy": "shreeya_happy.html",
+    "Natya": "shreeya_natya.html",
+    "Tessellation": "shreeya_tessellation.html"
+  },
+  "Thomas": {
+    "E": "thomas_e.html",
+    "Fireworks": "thomas_fireworks.html",
+    "Income Inequality": "thomas_income_inequality.html",
+    "Infinite Road": "thomas_infinite_road.html"
+  },
+  "Vibhu": {
+    "Cult": "vibhu_cult.html",
+    "Cult Movement": "vibhu_cult_movement.html",
+    "Kults": "vibhu_kults.html"
+  },
+  "Zack": {
+    "Circles": "zack_circles.html",
+    "Eyes": "zack_eyes.html",
+    "Interactivity": "zack_interactivity.html",
+    "Pattern": "zack_pattern.html"
+  }
+}
