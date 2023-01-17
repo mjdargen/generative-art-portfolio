@@ -61,8 +61,8 @@ const students = {
 
 
 function main() {
-    // let order = shuffle(Object.keys(students));
-    let order = Object.keys(students);
+    let order = shuffle(Object.keys(students));
+    // let order = Object.keys(students);
 
 
     let container = document.getElementsByTagName("main")[0];
