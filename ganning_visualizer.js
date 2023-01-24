@@ -316,7 +316,7 @@ function togglePlay() {
     // file.pause();
     ;
   } else {
-    file.loop();
+    file.play();
     loop();
   }
 }
