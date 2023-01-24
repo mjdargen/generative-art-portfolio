@@ -8,13 +8,13 @@ let numSteps = 1;
 let turnCounter = 1;
 let arrIndex = 0;
 
-let max = 200;
+let max = 1000;
 
 let stepSize = 10;
 let totalSteps;
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(1000, 1000);
   let cols = width / stepSize;
   let rows = height / stepSize;
   totalSteps = cols * rows;
@@ -28,16 +28,21 @@ function setup() {
 const primes = [];
 
 function fillPrimes(x) { //good
-  let n = 2;
-  while (primes.length < max) { //x number of primes found
-    for (let i = 2; i < int(n / 2); i++) {
-      if (n % i == 0) {
-        n++;
+  let count = 0; //number of primes found
+  let index = 2; //number determining if prime
+  while (count < x) { //x number of primes found
+    let prime = 0;
+    for (let i = 2; i <= index / 2; i++) {
+      if (int(index / i) == index / i) {
+        prime++;
         break;
       }
     }
-    n++;
-    primes.push(n);
+    if (prime == 0) {
+      count++;
+      primes.push(index);
+    }
+    index++;
   }
 }
 
