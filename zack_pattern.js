@@ -5,8 +5,8 @@ function setup() {
   strokeWeight(5);
   stroke(255);
   ellipseMode(CENTER);
-  for (let i = 100; i < width; i += 100) {
-    for (let j = 100; j < height; j += 100) {
+  for (let i = 100; i < width - 100; i += 100) {
+    for (let j = 100; j < height - 100; j += 100) {
       square(i, j, 100);
       fill(random(255), random(255), random(255));
       ellipse(i + 50, j + 50, random(10, 88), random(10, 88));
